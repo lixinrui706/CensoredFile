@@ -18,9 +18,10 @@ int main()
     if((current >= 'a' && current <= 'z') ||(current >= 'A' && current <= 'Z'))
     {
      if(first == ' ')
-        first = current;
+         first = current;
+    }     
      last = current;
-    }
+    
    } 
 
 
